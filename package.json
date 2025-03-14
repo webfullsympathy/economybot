@@ -1,0 +1,19 @@
+{
+  "name": "economybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.13.0",
+    "pg": "^8.14.0"
+  }
+}
