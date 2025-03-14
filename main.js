@@ -114,9 +114,9 @@ client.once('ready', async () => {
     // GUILD_IDが設定されていればギルドコマンドを設定
     const guild = client.guilds.cache.get(guildId);
 
-    if (!guild) {
-      console.log("指定されたギルドが見つかりません。");
-      return;
+    if(!guild){
+      console.log("ギルドが使用できません。\nサーバーに参加していることを確認してください。");
+      process.exit();
     }
 
     console.log(`ギルド${guild.name}にコマンドを登録します`);
